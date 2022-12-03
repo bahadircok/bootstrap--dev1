@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #E1E5EA;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    height: 80px;
+    align-items: center;
+}
+
+nav .right li{
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+
+/* section */
+section {
+    text-align: center;
+    margin-top: 50px;
+}
+section ul {
+    margin-top: 20px;
+    list-style: inside;
+    text-align: center;
+}
+section ul li {
+    text-align: center;
+}
+ 
+section ul a {
+    color:grey ;
+}
+
+section button {
+    display: block;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+section button:hover {
+   color: #fff;
+   opacity: .8;
+}
+
+section button a{
+    color: #fff;
+}
+
+/* ürün-page */
+
+
+ .card {
+    padding: 20px;
+    border-radius: 20px;
+ }
+
+ .card:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    cursor: pointer;
+ }
+ .card h3,p {
+    text-align: center;
+ }
+ .card p {
+    color: red;
+ }
+
+/* Hakkımızda */
+
+.about h4,p {
+   text-align: left;
+   margin-left: 20px;
+}
+
